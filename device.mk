@@ -45,11 +45,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     libaacwrapper
-
-# Camera
-PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
-
+    
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
