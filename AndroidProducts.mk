@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_surya.mk
+    $(LOCAL_DIR)/fluid_surya.mk
+
+COMMON_LUNCH_CHOICES := \
+    fluid_surya-user \
+    fluid_surya-userdebug \
+    fluid_surya-eng
