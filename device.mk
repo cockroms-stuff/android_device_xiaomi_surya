@@ -23,6 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 -include $(LOCAL_PATH)/system_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
+
+
 PRODUCT_BUILD_SUPER_PARTITION := false
 BOARD_BUILD_PRODUCT_IMAGE := true
 PRODUCT_SHIPPING_API_LEVEL := 29
@@ -51,6 +53,10 @@ PRODUCT_PACKAGES += \
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
+
+# thedise gcam
+PRODUCT_PACKAGES += \
+    GoogleCamera  
 
 PRODUCT_PACKAGES += \
 	libmedia_jni_shim

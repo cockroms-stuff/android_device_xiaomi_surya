@@ -1,0 +1,16 @@
+[
+  {
+    "repository": "ArrowOS-Devices/android_vendor_xiaomi_surya",
+    "target_path": "vendor/xiaomi/surya"
+  },
+  {
+    "repository": "ArrowOS-Devices/android_kernel_xiaomi_surya",
+    "target_path": "kernel/xiaomi/surya"
+  },
+  {
+      "repository":   "cockroms-stuff/packages_apps_GoogleCamera",
+      "target_path":  "packages/apps/GoogleCamera",
+      "branch":       "dise",
+      "remote":       "github"
+  }
+]
